@@ -17,7 +17,8 @@ class Lampada {
 	*	caso esteja acessa apaga a lampada, e se estiver apagada acende a lampada
 	*	@return void
 	*/
-	public function click(){
+	public function click()
+	{
 		if( $this->checaEstado() == true ) // se a lampada estiver acessa, ela apaga a lampada
 		{ 
 			$this->estado = false;
@@ -33,7 +34,8 @@ class Lampada {
 	*	retorn a quantidade de acendimentos
 	*	@return int
 	*/
-	public function qtdAcendimento(){
+	public function qtdAcendimento()
+	{
 		return $this->qtdAcendimento;
 	}
 
@@ -41,7 +43,8 @@ class Lampada {
 	*	retorna o estado da Lampada
 	*	@return boolean
 	*/
-	public function checaEstado(){
+	public function checaEstado()
+	{
 		return $this->estado;
 	}
 
